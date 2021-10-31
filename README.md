@@ -1,1 +1,1 @@
-#StudyBud - Find study partners around the world!
+# StudyBud - Find study partners around the world!
