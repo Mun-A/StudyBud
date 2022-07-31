@@ -19,8 +19,8 @@
                     {% csrf_token %}
 
                     <div class="form__group">
-                        <label for="username">Username</label>
-                        <input id="username" name="username" type="text" placeholder="e.g. dennis_ivy"/>
+                        <label for="username">Email</label>
+                        <input id="username" name="email" type="text" placeholder="e.g. fake@gmail.com"/>
                     </div>
                     <div class="form__group">
                         <label for="password">Password</label>
@@ -78,6 +78,7 @@
                     <div class="form__group">
                         <label for="room_name">{{field.label}}</label>
                         {{field}}
+                        {{field.errors}}
                     </div>
                     {% endfor %}
 
